@@ -1,0 +1,20 @@
+Buat aplikasi sistem pemesanan ruangan untuk rapat dengan fitur-fitur berikut:
+
+✅ Fitur Wajib:
+1. Daftar Ruangan
+    - Tampilkan beberapa ruangan yang tersedia dalam aplikasi.
+    - Setiap ruangan memiliki status waktu yang tersedia untuk meeting.
+2. Request Ruangan
+    - Pengguna bisa memilih ruangan dan waktu yang kosong untuk membuat permintaan pemesanan.
+    - Simpan data request (ruangan, waktu mulai, waktu selesai) ke dalam state dan local storage.
+3. Perubahan Jadwal
+    - Pengguna bisa mengubah jadwal yang sudah dipesan, dengan cek apakah perubahan jadwal tersebut bentrok dengan jadwal lain yang sudah ada.
+4. Hapus Request
+    - Pengguna bisa menghapus request yang belum dimulai. Jika waktunya sudah lewat, hapus tidak boleh dilakukan.
+5. Login Pengguna
+    - Setiap pengguna memiliki akun untuk melakukan login sebelum melakukan pemesanan ruangan.
+    - Simpan informasi login ke dalam AsyncStorage agar tetap terautentikasi pada sesi berikutnya.
+6. Notifikasi untuk Meeting
+    - Notifikasi kepada pengguna yang membuat pemesanan, memberitahukan jika waktu meeting mendekati (misalnya 10 menit sebelum mulai).
+7. Menyimpan Data ke Local Storage
+    - Simpan data pemesanan, perubahan, dan penghapusan ke dalam AsyncStorage agar tetap persisten meskipun aplikasi ditutup.
