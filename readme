@@ -18,9 +18,9 @@ Buat aplikasi sistem pemesanan ruangan untuk rapat dengan fitur-fitur berikut:
     - Notifikasi kepada pengguna yang membuat pemesanan, memberitahukan jika waktu meeting mendekati (misalnya 10 menit sebelum mulai).
 7. Menyimpan Data ke Local Storage
     - Simpan data pemesanan, perubahan, dan penghapusan ke dalam AsyncStorage agar tetap persisten meskipun aplikasi ditutup.
-8. Upload github masing-masing dan share ke hris.transtv@gmail.com
-9. Buat README.md yang menjelaskan cara menjalankan aplikasi, fitur-fitur yang ada, dan cara kontribusi.
 
 
 ⚠️ tidak diperkenankan menggunakan AI, gunakan kreatifitas anda
 ✅ contoh output aplikasi di file contoh.jpeg
+👍🏻 Upload github masing-masing dan share ke hris.transtv@gmail.com
+🔡 Buat README.md yang menjelaskan cara menjalankan aplikasi, fitur-fitur yang ada, dan cara kontribusi.
